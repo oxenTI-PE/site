@@ -14,20 +14,25 @@ body {
     letter-spacing: 0.8px;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 200;
 }
+
 ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+
 a {
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
   	transition: all 0.3s;
 }
+
 a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
 }
@@ -477,6 +482,14 @@ ul.footer-menu li a:hover {
 
 .col-padding {
     padding:7px;
+}
+.quemsomos, .apoiadores, .parceiros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ========================================
