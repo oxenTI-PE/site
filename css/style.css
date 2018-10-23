@@ -335,16 +335,18 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .speaker .feature {
-	width: 31.333333%;
-	-webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
+    width: 31.333333%;
+    min-height: 350px;
+	-webkit-transition: all .25s;
+  	-moz-transition: all .25s;
+      transition: all .25s;
   	margin-right: 20px;
-  	border: 3px solid #f6f6f6;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 18px rgba(232, 232, 232, .75);
+    border: 1px solid rgba(232, 232, 232, .6);
 }
 .speaker .feature:hover {
-    box-shadow: 3px 3px 10px #ccc;
+    box-shadow: 0 6px 30px #eaeaea;
     transform: translateY(-10px);
 }
 .speaker-img {
@@ -481,7 +483,7 @@ ul.footer-menu li a:hover {
 }
 
 .col-padding {
-    padding:7px;
+    padding: 10px;
 }
 .quemsomos, .apoiadores, .parceiros {
     width: 100%;
@@ -505,7 +507,8 @@ ul.footer-menu li a:hover {
         max-height: 550px;
     }
     .speaker .feature {
-        width: 100%
+        width: 90%;
+        margin: 30px auto;
     }
     .footer-credit {
         text-align: center;
@@ -526,8 +529,9 @@ ul.footer-menu li a:hover {
         text-align: center;
     }
     .speaker .feature {
-        width: 49%;
+        width: 45%;
         margin-right: 7px;
+        margin-left: 20px;
     }
     ul.footer-menu {
         margin-top: 0;
@@ -539,7 +543,8 @@ ul.footer-menu li a:hover {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .speaker .feature {
-        width: 49%;
+        width: 45%;
         margin-right: 9px;
+        margin-left: 10px;
     }
 }
